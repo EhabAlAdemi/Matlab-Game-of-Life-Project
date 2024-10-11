@@ -1,8 +1,9 @@
 # Matlab Conway's Game-of-Life Project
 
-##Introduction
+## Introduction
 This project is aimed at creating an application which showcases the famed Conway’s Game of Life. This was decided since The Zero-Player game had iterations of system analysis concepts and proves to be an important example of essential system specifications. Those specifications were reversibility, totality, and unpredictability. There was a need to showcase the types of GOL system types as well. Some were either in steady state, oscillating, dead or entirely random. The way to show this to the user was to allow them to enter whichever 2 dimensional 64x64 shape and to see the Game of Life run itself. An additional feature was added to allow the user to see a random input play itself.
 
+## Methodology
 
 ### FindNeighbor
 FindNeighbor.m has the purpose of executing the game itself. This is done since it takes a 64x64 array of 0s and 1s. the exact composition of those zeros and ones is determined by a variable called “random”.
